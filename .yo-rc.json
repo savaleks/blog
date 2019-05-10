@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "blog",
+    "packageName": "com.savaleks.demo.blog",
+    "packageFolder": "com/savaleks/demo/blog",
+    "serverPort": 8090,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "NzQyZTljMWE3ZTk2OGJlNjFiOTFjNGExMDk1ZjI5NDM1MmU3NGU1Njc2ZWE5MDZkNDU4MTI5M2E4ZDA0N2YxNTdhZDY3YzYwYjE4N2RhMzAzYWJmOWY2YzJjOWIzMjEyZDM3YWRmNWRjNTE0OGRhOTE4ODgyZDI5MTM1ZDk4N2M=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  }
+}
